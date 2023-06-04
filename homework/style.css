@@ -1,33 +1,20 @@
 body {
-	background-color: black;
 	margin: 0;
 	padding: 0;
+	font-family: Arial, sans-serif;
 }
 
-h2 {	
-	text-align: center;
-	color: green;	
-}
-
-h3 {
-	margin-left: 40px;
-	color: green;
-	text-align: left;
-}
-
-.img {
-	padding-top: 70px;
-	margin-left: 200px;
-}
 
 nav {
 	background-image: url(goa.png);
+	border-radius: 30px;
     background-repeat: no-repeat;
     background-position: 30px;
     background-size: 50px;
-	background-color: #bfeefd;
-	border-bottom: 2px solid #a3a1a1;
-	padding: 7px;
+	background-color: #a4fa94;
+	border-bottom: 2px solid #93b597;
+	padding-top: 10px;
+
 }
 
 nav ul {
@@ -39,29 +26,21 @@ nav ul {
 }
 
 nav li {
-	margin:0 50px;
+	margin:0 30px;
 }
 
 nav a {
 	display: flex;
-	padding: 10px;
+	padding: 17px;
 	color:black;
 	text-decoration: none;
 }
 
 nav a:hover {
-	background-color: #87c7d8;
+	background-color: #7cc170;
 	color: rgb(0, 0, 0);
     border-radius: 4px;
-    width: 100px;
-    height: 27px;
 }
-  
-  body {
-	font-family: Arial, sans-serif;
-	background-color: #f2f2f2;
-  }
-  
 
   table {
     width: 100%;
@@ -75,9 +54,33 @@ nav a:hover {
   }
   
   th {
-    background-color: #b1e8f8;
+    background-color: #d0ffc8;
   }
   
   tr:hover {
-    background-color: #fee2e2;
+    background-color: #ffe4e4;
   } 
+  
+  h2 {	
+	text-shadow: 3px 0px 7px rgb(0, 0, 0);
+	text-align: center;
+	color: rgb(8, 81, 36);	
+}
+
+h3 {
+	list-style-image: url(download.jpg);
+	text-shadow: 3px 1px 7px rgb(0, 0, 0);
+	margin-left: 40px;
+	color: rgb(8, 81, 36);
+	text-align: left;
+}
+
+.img {
+	padding-top: 20px;
+	margin-left: 200px;
+}
+
+.gamarjoba {
+	padding-right: 530px;
+	color: #164d0d;
+}
